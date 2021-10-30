@@ -383,3 +383,18 @@ if( userInput ==  num){
 } else if(  userInput == num + 1) {
   alert("Close enough to the correct answer");
 } */
+
+// Question 8 //
+/* 
+var num = +prompt("Write Number");
+if(num%3 == 0) {
+  alert("the number is divisible by 3");
+} */
+
+// Question 9 //
+/* var num = +prompt("Write Number");
+if(num%2 == 0){
+   alert("The number is even");
+} else{
+  alert("The number is odd");
+} */
