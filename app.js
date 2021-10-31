@@ -398,3 +398,31 @@ if(num%2 == 0){
 } else{
   alert("The number is odd");
 } */
+
+// Question 10 //
+/* var temp = prompt("enter today's temperature");
+if(temp>=40){
+  alert("It is too hot outside.");
+} else if(temp>=30 && temp<40){
+  alert("The Weather today is Normal");
+} else if(temp>=20 && temp<30){
+  alert("Today’s Weather is cool");
+} else if(temp>=10 && temp<20){
+  alert("OMG! Today’s weather is so Cool");
+} */
+
+// Question 11 //
+/* var  num1 = +prompt("enter first number");
+var num2 = +prompt("enter second number");
+var operator = prompt("enter operator")
+if(operator == "+" ){
+  alert(num1 + num2);
+} else if(operator == "-"){
+  alert(num1 - num2);
+} else if(operator == "/"){
+  alert(num1 / num2);
+} else if(operator == "*"){
+  alert(num1 * num2);
+} else if(operator == "%"){
+  alert(num1 % num2);
+} */
