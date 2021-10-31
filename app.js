@@ -426,3 +426,69 @@ if(operator == "+" ){
 } else if(operator == "%"){
   alert(num1 % num2);
 } */
+
+// Chapter 12-13 //
+// Question 1 //
+/* var char = prompt("Enter character");
+if(char == ) */
+
+// Question 2 //
+/* var num1 = prompt("enter 1st number");
+var num2 = prompt("enter 2nd number");
+if(parseInt(num1 , 10) > parseInt(num2, 10)){
+  alert("the larger of " + num1 + " and " + num2 + " is " + num1 );
+} else if(parseInt(num1 , 10) < parseInt(num2, 10)){
+  alert("the larger of " + num1 + " and " + num2 + " is " + num2 );
+} else{
+  alert("Both numbers are equal");
+} */
+
+// Question 3 //
+/* var num = prompt("enter number");
+if(parseInt(num, 10) > 0){
+  alert("The number is positive");
+} else if(parseInt(num, 10) < 0){
+  alert("The number is negative")
+} else if (parseInt(num , 10 ) == 0){
+  alert("number is zero")
+} */
+
+// Question 4 //
+/* var char = prompt("enter alphabet");
+if (char == "a" || char == "e" || char == "i" || char == "o" || char == "u" ){
+  alert("true i.e given alphabet is vowel")
+} else{
+   alert( "false i.e wrong input");
+} */
+
+// Question 5 //
+/* var password = "subhan12";
+var userPassword = prompt("Enter your password");
+if(userPassword == ""){
+  alert(" Please enter your password");
+} else if(userPassword == password){
+  alert("Correct! The password you entered matches the original password");
+} else{
+  alert("Incorrect password");
+} */
+
+// Question 6 //
+/* var greeting;
+ var hour = 13;
+  if (hour < 18){ 
+greeting = "Good day" }
+else{ greeting = "Good evening" }
+alert(greeting);
+ */
+
+// Question 7 //
+/* var time = prompt("enter current time in 24 hours format like 7pm = 1900");
+if(parseInt(time, 10) >= 0000 && time < 1200){
+  alert("Good Morning!");
+} else if(time>=1200 && time< 1700){
+  alert("Good afternoon!");
+} else if(time >= 1700 && time< 2100){
+  alert("Good Evening!");
+} else if(time>=2100 && time <0000){
+  alert("Good Night!");
+} */
